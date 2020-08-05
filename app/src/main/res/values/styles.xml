@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="formNgayDangKy">
+        <item name="android:id">@id/editTextDate</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">So Nguoi</item>
+        <item name="android:inputType">textPersonName</item>
+    </style>
+
+    <style name="formSoLuong">
+        <item name="android:id">@id/editTextNumber</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">Ngay Dang Ky</item>
+        <item name="android:inputType">textPersonName</item>
+    </style>
+
+    <style name="spinnerTour">
+        <item name="android:id">@id/dmTour</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="spinnerKhachHang">
+        <item name="android:id">@id/spKhachHang</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Them">
+        <item name="android:id">@id/buttonThem</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawableLeft">@drawable/ic_add_box_black_24dp</item>
+        <item name="android:text">Thêm</item>
+    </style>
+
+    <style name="Xoa">
+        <item name="android:id">@id/buttonXoa</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawableLeft">@drawable/ic_delete_forever_black_24dp</item>
+        <item name="android:text">Xóa</item>
+    </style>
+
+    <style name="Sua">
+        <item name="android:id">@id/buttonSua</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawableLeft">@drawable/ic_refresh_black_24dp</item>
+        <item name="android:text">Sửa</item>
+    </style>
+
+    <style name="Clear">
+        <item name="android:id">@id/buttonClear</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawableLeft">@drawable/ic_format_list_bulleted_black_24dp</item>
+        <item name="android:text">Clear</item>
+    </style>
+
+    <style name="listView">
+        <item name="android:id">@id/lvDanhSach</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="info">
+        <item name="android:id">@id/textViewinfo</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#8BC34A</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/info</item>
+        <item name="android:textColor">#FFEB3B</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+</resources>

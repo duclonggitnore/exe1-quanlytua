@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Giaodien.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8BC34A"
+            android:gravity="center"
+            android:text="@string/qlTour"
+            android:textColor="#FFEB3B"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            style="@style/formNgayDangKy" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            style="@style/formSoLuong" />
+
+        <Spinner
+            android:id="@+id/dmTour"
+            style="@style/spinnerTour" />
+
+        <Spinner
+            android:id="@+id/spKhachHang"
+            style="@style/spinnerKhachHang" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonThem"
+                style="@style/Them" />
+
+            <Button
+                android:id="@+id/buttonXoa"
+                style="@style/Xoa" />
+
+            <Button
+                android:id="@+id/buttonSua"
+                style="@style/Sua" />
+
+            <Button
+                android:id="@+id/buttonClear"
+                style="@style/Clear" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewinfo"
+            style="@style/info" />
+
+        <ListView
+            android:id="@+id/lvDanhSach"
+            style="@style/listView" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

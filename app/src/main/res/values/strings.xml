@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quan Ly Dang Ky Tour</string>
+    <string name="formDangKy">Phieu dang ky</string>
+    <string name="date">Ngay Dang Ky</string>
+    <string name="number">So Nguoi</string>
+    <string name="them">Them</string>
+    <string name="xoa">Xoa</string>
+    <string name="sua">Sua</string>
+    <string name="clear">Clear</string>
+    <string name="luu">Luu</string>
+    <string name="doc">Doc</string>
+    <string name="thoat">Thoat</string>
+    <string name="qlTour">Quản Lý Tour</string>
+    <string name="info">Thông tin Tour</string>
+</resources>

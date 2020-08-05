@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tour Registration Management</string>
+    <string name="formDangKy">Registration form</string>
+    <string name="date">Registration Date</string>
+    <string name="number">Amount of people</string>
+    <string name="them">Add</string>
+    <string name="xoa">Delete</string>
+    <string name="sua">Repair</string>
+    <string name="clear">Clear</string>
+    <string name="luu">Save</string>
+    <string name="doc">Read</string>
+    <string name="thoat">Cancel</string>
+    <string name="qlTour">"Tour Management "</string>
+    <string name="info">"Tour Management "</string>
+</resources>
